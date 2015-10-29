@@ -1,0 +1,28 @@
+{	
+	"name": "zhiephie/lib-rajaongkir",
+    "description": "Library Check Ongkos Kirim RajaOngkir",
+    "keywords": [
+        "library",
+        "rajaongkir"
+    ],
+	"homepage": "https://github.com/zhiephie/lib-rajaongkir",
+    "license": "MIT",
+	"authors": [
+        {
+            "name": "Yudi Purwanto",
+            "email": "yp@timexstudio.com",
+            "homepage": "https://timexstudio.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^2.0",
+        "mashape/unirest-php": "~1.2"
+    },
+	"autoload": {
+        "psr-4": {"Timex\\": "src"}
+    },
+    "classmap" : [
+        "tests"
+    ]
+}
