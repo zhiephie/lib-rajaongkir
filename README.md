@@ -16,5 +16,5 @@ $ composer install
 Alternatively, you can use `composer create-project` to install Library RajaOngkir without downloading zip or cloning this repo.
 
 ``` bash 
-  SOON
+  $ composer create-project --no-interaction --stability=dev zhiephie/lib-rajaongkir your-folder
 ```
